@@ -12,13 +12,13 @@ Changing paper speed and gain changes an ECG's presentation, not its source reco
 
 Simply copying one view can eliminate disagreement. TGCP instead makes explicit which reference is retained and which new consensus event is prevented.
 
-![Paper Figure 1: calibration sensitivity, adapted-model stabilization, and native ECG illustration crops.](assets/calibration_gap.svg)
+![Paper Figure 1: calibration sensitivity, adapted-model stabilization, and native ECG illustration crops.](calibration_gap.svg)
 
 *Figure 1 from the manuscript. Released-model gap measurements and adapted-model method results are separate comparisons. The embedded ECG crops are the paper's existing illustrations, not additional dataset files.*
 
 ## Method
 
-![Paper Figure 2: three-stream canonical alignment followed by text-guarded joint inference.](assets/method_overview.svg)
+![Paper Figure 2: three-stream canonical alignment followed by text-guarded joint inference.](method_overview.svg)
 
 *Figure 2 from the manuscript. Orange denotes raw/canonical fields; purple, pink, and green denote alignment, restoration, and retention. This figure shows the full pipeline; this minimal code starts at its candidate-scoring/readout interface.*
 
