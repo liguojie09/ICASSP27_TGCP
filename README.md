@@ -1,10 +1,6 @@
 # TGCP: Stabilizing ECG Image Interpretation Across Paper Speed and Gain
 
-Minimal method code for **Text-Guarded Canonical Projection (TGCP)**.
-
 TGCP stabilizes diagnostic readouts from four calibrated electrocardiogram (ECG) views of the same recording. It preserves the raw canonical readout and prevents new all-view agreement with a shared text-only prediction.
-
-This release contains one Python module, this README, a NumPy dependency file, and two existing paper figures. **No model weights, fitted parameter files, datasets, patient-level outputs, or training/evaluation scripts are included.**
 
 ## Motivation
 
